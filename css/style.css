@@ -1,0 +1,171 @@
+body{
+    font-family: 'Playfair Display', serif;
+    line-height: 40px;
+}
+
+/* ====================================Home-starts=============================== */
+#home{
+    background-image: linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)), url(../img/events-heavenly-header.jpeg);
+    background-position: center center;
+    background-size: cover;
+    height: 680px;
+}
+#home h1{
+    font-size:60px;
+}
+#home p{
+    font-size: 22px;
+}
+
+/* ======================================Home-ends============================= */
+/* =====================================menue-starts=========================== */
+
+.menue{
+    top: 0;
+    left: -250px;
+    background-color: rgba(0,0,0,0.96);
+    height: 100vh;
+    width:250px;
+    z-index: 999;
+    
+   
+}
+.toggler{
+   right: 0;
+   transform: translateX(105%);
+   color: #fff;
+   cursor: pointer;
+  
+}
+.fa-bars{
+    cursor:pointer;
+    transform: translateY(-5px);
+}
+.fa-close{
+    right: 10px;
+    cursor: pointer !important;
+    transition: color 0.5s;
+    
+}
+.fa-close:hover{
+    color:rgb(177, 19, 19) !important ;
+
+}
+.menueContent{
+    margin-top: 80px;
+    padding-left: 30px;
+}
+
+.menueContent a{
+    text-decoration:none;
+    color:#ffffff !important;
+    display:block;
+    font-size: 20px;
+    transition: color 0.5s;
+}
+.menueContent a:hover{
+    color: rgb(177, 19, 19) !important;
+
+}
+
+/* ===================================menue-ends=============================== */
+/* =================================Details-starts============================= */
+
+#details{
+    margin-block: 80px;
+}
+.container-md{
+    width: 60%;}
+#details h2{
+    background-color:#E78A8F;
+    padding-block: 10px;
+    margin: 0;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.innerText{
+    background-color: #CCCCCC;
+    margin: 0;
+    padding-block: 15px;
+    display: none;
+}
+.frist{
+    display: block ;
+}
+
+/* ===================================Details-ends================================= */
+/* =================================Duration-starts================================ */
+
+#duration{
+    background-image: linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)), url(../img/invitation-2508607__340.jpeg);
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+   
+}
+#duration .container{
+    width: 80%;
+}
+.item{
+   width: 95%;
+    border: 1px solid #fff;
+    padding-block: 50px;
+    font-size: 35px;
+    color: #fff;
+}
+
+/* ==================================Duration-ends================================ */
+/* ==================================Contact-starts=============================== */
+#contact{
+    padding-block: 100px;
+}
+#contact .container{
+    width: 75%;
+}
+#contact h2{
+    font-size: 40px;
+}
+
+#contact h3{
+    font-size: 20px;
+}
+#contact p,ul span{
+    color: #777777;
+    font-size:17px ;
+}
+ul span{
+    margin-left: 10px;
+   
+}
+.social{
+    width:60%;
+}
+.social a{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+    border: 1px solid #000;
+    color: #000;
+    height: 40px;
+    width: 40px;
+    transition:all 0.5s ;
+    
+}
+.social a:hover{
+    background-color: rgb(197, 28, 28);
+    border: 1px solid rgb(197, 28, 28);
+    color: #fff;
+}
+.form-control{
+    border-radius: 0px;
+
+}
+button{
+    width: 30%;
+}
+.remainingChar{
+    font-size: 25px;
+}
+/* ==================================Contact-ends============================= */
